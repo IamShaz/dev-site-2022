@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shazin Ramji - Front End Developer</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imgs/favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="loading" class="flex">
+        <p>Loading...</p>
+    </div>
+    <div id="teaMug">
+        <div class="steam" id="steam1"> </div>
+        <div class="steam" id="steam2"> </div>
+        <div class="steam" id="steam3"> </div>
+        <div class="steam" id="steam4"> </div>
+        <div class="steam" id="steam5"> </div>
+        <div class="steam" id="steam6"> </div>
+        <div id="cup">
+            <div id="cup-body">
+                <div id="cup-shade"></div>
+            </div>
+            <div id="cup-handle"></div>
+        </div>
+        <div id="saucer"></div>
+        <div id="shadow"></div>
+    </div>
+    <div class="container hidden flex">
+        <div id="intro">
+            <h1>Shazin Ramji</h1>
+            <h2>Front End <span class="accent-one">Developer</span></h2>
+            <div>
+                <span class="no-wrap"><span class="accent-two">Javascript</span> Enthusiast</span> &
+                <span class="no-wrap"><span class="accent-two">Tea</span> Drinker</span>
+            </div>
+        </div>
+        <div>
+            <button id="about">About</button>
+            <button id="portfolio">Portfolio</button>
+        </div>
+        <div id="info" class="flex">
+            <a class="button" href="mailto:shazin.rr@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            <a class="button" href="https://www.linkedin.com/in/shazinr" target="_blank"><i
+                    class="fa fa-linkedin"></i></a>
+            <a class="button" href="https://github.com/IamShaz" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+    <div id="aboutContent" class="flex hidden">
+        <div class="content hidden">
+            <div class="header">
+                <div>&nbsp;</div>
+
+                <div>
+                    <h3>About</h3>
+                    <a href="./projects/Resume-Shazin_Ramji.pdf" target="_blank">View Resume <i class="fa fa-file-pdf-o"></i></a>
+                </div>
+                <button class="closeBtn">X</button>
+            </div>
+            <div>
+                <p>Hi, I’m Shazin, a passionate web developer specializing in creating enriching front end
+                    experiences, though I often find myself intrigued by backend technologies and how both
+                    applications are used in conjunction to build the world wide web.</p>
+            </div>
+            <div class="wrapper">
+                <img src="./imgs/about.jpg" alt="Shazin R">
+                <div class="text">
+                    <p>The online world and its endless possibilities has always fascinated me.</p>
+                    <p>One day, still trying to figure out what I truly wanted to pursue as a career path, I
+                        realized
+                        that I mainly wanted a way to make money, so I Googled it, “How to make money online”. I
+                        never
+                        thought one search would change my life forever.</p>
+                    <p>The core of making money online at the time was through a website. After researching and
+                        discovering how websites are created using code, my interest peaked and I realized this was
+                        something I was genuinely interested in learning more about. From there, I furthered my
+                        education as a Webmaster and combined my experience in the fine arts, print/digital
+                        marketing
+                        and background in writing, along with my natural flare for creativity, and pursued a path in
+                        front end development.</p>
+                    <p>I love the internet and have dedicated myself to being a part of those infinite
+                        possibilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolioContent">
+        <div class="header">
+            <div>&nbsp;</div>
+            <div>
+                <h3>Portfolio</h3>
+                <a href="https://github.com/IamShaz" target="_blank">View Code on GitHub <i
+                        class="fa fa-github"></i></a>
+            </div>
+            <button class="closeBtn">X</button>
+        </div>
+        <div class="projectContainer">
+            <div class="content">
+                <a href="./projects/roulette/" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/roulette.jpg" alt="Roulette">
+                        <h3>Roulette Game</h3>
+                        <p>React JS</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="./projects/taskslist/" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/taskslist.jpg" alt="Tasks List">
+                        <h3>Tasks List</h3>
+                        <p>CRUD, React JS</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="./projects/tvfeed/index.html" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/tvfeed.jpg" alt="TV Feed">
+                        <h3>TV Feed</h3>
+                        <p>API, Vanilla JavaScript</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="./projects/TommysGift.pdf" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/tommysgift.jpg" alt="Children's Book">
+                        <h3>Children's Book</h3>
+                        <p>Written & Illustrated</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="http://alvarezdesigns.ca/" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/alvarezDesigns.jpg" alt="Alvarez Designs">
+                        <h3>Jewellery Store</h3>
+                        <p>Customized Website, Particle JS</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="./projects/kreativelane.pdf" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/kreativelane.jpg" alt="Kreative Lane">
+                        <h3>Kreative Lane</h3>
+                        <p>Angular JS</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="./projects/catering/index.html" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/serviceplus.jpg" alt="Service Plus Durham">
+                        <h3>Catering Website</h3>
+                        <p>Customized Website, PHP</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="./projects/inexclean/index.html" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/inexclean.jpg" alt="Inex Clean">
+                        <h3>Inex Clean</h3>
+                        <p>Maintenance Page, jQuery</p>
+                    </div>
+                </a>
+            </div>
+            <div class="content">
+                <a href="./projects/tke/index.html" target="_blank">
+                    <div class="project flex">
+                        <img src="imgs/tkeducation.jpg" alt="Three Kingdoms Education">
+                        <h3>English Teacher Recruiting</h3>
+                        <p>Customized Website</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Created with&nbsp;<span class="accent-two">&hearts;</span>
+        by <a class="accent-one" href="https://shaz.dev">shaz.dev</a>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
